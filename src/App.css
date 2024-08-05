@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
+}
+
+#about-modal > p {
+  @apply my-2 mx-4;
+}
+
+.selected {
+  @apply opacity-80 bg-orange my-0 py-3 border-solid border-4 border-white text-white;
+}
+
+.on {
+  @apply ring-4 ring-white shadow-2xl mb-4;
+}
+
+#image-container > img {
+  @apply min-w-[15vw] max-w-[90vw] max-h-[30vh] ring-4 ring-white shadow-2xl;
+}
+
+#nutrition-container > p {
+  @apply m-2;
+}
